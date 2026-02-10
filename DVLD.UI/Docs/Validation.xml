@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<docs>
+	<members name="Validation">
+		<Empty>
+			<summary>
+				Checks whether the given text is null, empty, or contains only whitespace characters.
+			</summary>
+			<param name="text">
+				The text to validate.
+			</param>
+			<returns>
+				True if the text is null, empty, or whitespace only; otherwise, false.
+			</returns>
+		</Empty>
+		<HasNumbers>
+			<summary>
+				Determines whether the given text contains any numeric digits.
+			</summary>
+			<param name="text">
+				The text to check.
+			</param>
+			<returns>
+				True if the text contains one or more digits; otherwise, false.
+			</returns>
+		</HasNumbers>
+		<ValidateInteger>
+			<summary>
+				Validates whether the given text represents a valid integer number.
+			</summary>
+			<param name="Number">
+				The text to validate.
+			</param>
+			<returns>
+				True if the text contains digits only; otherwise, false.
+			</returns>
+		</ValidateInteger>
+		<ValidateFloat>
+			<summary>
+				Validates whether the given text represents a valid floating-point number.
+			</summary>
+			<param name="Number">
+				The text to validate.
+			</param>
+			<returns>
+				True if the text is a valid decimal number; otherwise, false.
+			</returns>
+		</ValidateFloat>
+		<IsNumber>
+			<summary>
+				Determines whether the given text represents a valid numeric value
+				(integer or floating-point).
+			</summary>
+			<param name="Number">
+				The text to validate.
+			</param>
+			<returns>
+				True if the text is a valid number; otherwise, false.
+			</returns>
+		</IsNumber>
+		<IsValidPassword>
+			<summary>
+				Validates whether the given password meets basic security requirements.
+			</summary>
+			<param name="password">
+				The password to validate.
+			</param>
+			<returns>
+				True if the password contains at least one lowercase letter,
+				one uppercase letter, one digit, and has a minimum length of 8 characters;
+				otherwise, false.
+			</returns>
+		</IsValidPassword>
+	</members>
+</docs>
