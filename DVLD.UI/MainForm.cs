@@ -9,7 +9,7 @@ namespace DVLD.UI
 
         private void btnNewLocalDrivingLicense_Click(object sender, EventArgs e)
         {
-            ShowFormDialog(new NewLocalDrivingLicenseForm());
+            ShowFormDialog(new AddNewLocalDrivingLicenseApplicationForm());
         }
 
         private void btnNewInternationalDrivingLicense_Click(object sender, EventArgs e)
@@ -37,24 +37,9 @@ namespace DVLD.UI
             ShowFormDialog(new ReleaseDetainedDrivingLicenseForm());
         }
 
-        private void btnNewCarLicense_Click(object sender, EventArgs e)
-        {
-            ShowFormDialog(new NewCarLicenseForm());
-        }
-
-        private void btnReleaseDetainedCarLicense_Click(object sender, EventArgs e)
-        {
-            ShowFormDialog(new ReleaseDetainedCarLicenseForm());
-        }
-
         private void btnDetainDrivingLicense_Click(object sender, EventArgs e)
         {
             ShowFormDialog(new DetainDrivingLicenseForm());
-        }
-
-        private void btnDetainCarLicense_Click(object sender, EventArgs e)
-        {
-            ShowFormDialog(new DetainCarLicenseForm());
         }
 
         private void btnManageLocalDrivingLicenseApplications_Click(object sender, EventArgs e)
@@ -70,11 +55,6 @@ namespace DVLD.UI
         private void btnManageDetainedDrivingLicenses_Click(object sender, EventArgs e)
         {
             ShowFormDialog(new ManageDetainedDrivingLicensesForm());
-        }
-
-        private void btnManageDetainedCarLicenses_Click(object sender, EventArgs e)
-        {
-            ShowFormDialog(new ManageDetainedCarLicensesForm());
         }
 
         private void btnManagePeople_Click(object sender, EventArgs e)
@@ -100,21 +80,6 @@ namespace DVLD.UI
         private void btnManageDrivingTestsTypes_Click(object sender, EventArgs e)
         {
             ShowFormDialog(new ManageDrivingTestsTypesForm());
-        }
-
-        private void btnRenewCarLicense_Click(object sender, EventArgs e)
-        {
-            ShowFormDialog(new RenewCarLicenseForm());
-        }
-
-        private void btnReplaceLostCarLicense_Click(object sender, EventArgs e)
-        {
-            ShowFormDialog(new ReplaceCarLicenseForm());
-        }
-
-        private void btnReplaceDamagedCarLicense_Click(object sender, EventArgs e)
-        {
-            ShowFormDialog(new ReplaceCarLicenseForm());
         }
 
         private void currentUserInformationToolStripMenuItem_Click(object sender, EventArgs e)

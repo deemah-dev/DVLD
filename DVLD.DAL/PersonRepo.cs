@@ -135,16 +135,24 @@ namespace DVLD.DAL
                             personID = reader.GetInt32("PersonID");
                             firstName = reader.GetString("FirstName");
                             secondName = reader.GetString("SecondName");
-                            thirdName = reader.GetString("ThirdName");
+
+                            if (reader["ThirdName"] == DBNull.Value) thirdName = "";
+                            else thirdName = reader.GetString("ThirdName");
+
                             lastName = reader.GetString("LastName");
                             dateOfBirth = reader.GetDateTime("DateOfBirth");
-                            gender = reader.GetInt32("Gender");
+                            gender = reader.GetByte("Gender");
                             address = reader.GetString("Address");
                             phone = reader.GetString("Phone");
-                            email = reader.GetString("Email");
+
+                            if (reader["Email"] == DBNull.Value) email = "";
+                            else email = reader.GetString("Email");
+
                             nationalityCountryID = reader.GetInt32("NationalityCountryID");
                             nationalityName = reader.GetString("NationalityName");
-                            imagePath = reader.GetString("ImagePath");
+
+                            if (reader["ImagePath"] == DBNull.Value) imagePath = "";
+                            else imagePath = reader.GetString("ImagePath");
 
                             return true;
                         }

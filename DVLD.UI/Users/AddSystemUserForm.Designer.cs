@@ -266,7 +266,7 @@
             txtBPassword.SelectionStart = 0;
             txtBPassword.ShortcutsEnabled = true;
             txtBPassword.Size = new Size(312, 48);
-            txtBPassword.TabIndex = 35;
+            txtBPassword.TabIndex = 34;
             txtBPassword.TabStop = false;
             txtBPassword.TextAlign = HorizontalAlignment.Left;
             txtBPassword.TrailingIcon = null;
@@ -300,7 +300,7 @@
             txtBConfirmPassword.SelectionStart = 0;
             txtBConfirmPassword.ShortcutsEnabled = true;
             txtBConfirmPassword.Size = new Size(312, 48);
-            txtBConfirmPassword.TabIndex = 34;
+            txtBConfirmPassword.TabIndex = 35;
             txtBConfirmPassword.TabStop = false;
             txtBConfirmPassword.TextAlign = HorizontalAlignment.Left;
             txtBConfirmPassword.TrailingIcon = null;

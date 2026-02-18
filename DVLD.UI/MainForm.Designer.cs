@@ -31,7 +31,6 @@
             components = new System.ComponentModel.Container();
             foreverClose1 = new ReaLTaiizor.Controls.ForeverClose();
             bigLabel1 = new ReaLTaiizor.Controls.BigLabel();
-            bigLabel2 = new ReaLTaiizor.Controls.BigLabel();
             airButton1 = new ReaLTaiizor.Controls.AirButton();
             btnNewLocalDrivingLicense = new ReaLTaiizor.Controls.MaterialButton();
             btnNewInternationalDrivingLicense = new ReaLTaiizor.Controls.MaterialButton();
@@ -81,30 +80,18 @@
             bigLabel1.BackColor = Color.Transparent;
             bigLabel1.Font = new Font("Arial Narrow", 25.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             bigLabel1.ForeColor = Color.Black;
-            bigLabel1.Location = new Point(12, 72);
+            bigLabel1.Location = new Point(12, 16);
             bigLabel1.Name = "bigLabel1";
-            bigLabel1.Size = new Size(621, 49);
+            bigLabel1.Size = new Size(610, 49);
             bigLabel1.TabIndex = 14;
-            bigLabel1.Text = "Driver and Vehicle License Department";
-            // 
-            // bigLabel2
-            // 
-            bigLabel2.AutoSize = true;
-            bigLabel2.BackColor = Color.Transparent;
-            bigLabel2.Font = new Font("Arial Narrow", 25.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            bigLabel2.ForeColor = Color.Black;
-            bigLabel2.Location = new Point(12, 12);
-            bigLabel2.Name = "bigLabel2";
-            bigLabel2.Size = new Size(428, 49);
-            bigLabel2.TabIndex = 17;
-            bigLabel2.Text = "Public Security Directorate";
+            bigLabel1.Text = "Driving Licenses Management System";
             // 
             // airButton1
             // 
             airButton1.Customization = "7e3t//Ly8v/r6+v/5ubm/+vr6//f39//p6en/zw8PP8UFBT/gICA/w==";
             airButton1.Font = new Font("Arial Narrow", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             airButton1.Image = null;
-            airButton1.Location = new Point(50, 148);
+            airButton1.Location = new Point(48, 93);
             airButton1.Name = "airButton1";
             airButton1.NoRounding = false;
             airButton1.Size = new Size(231, 23);
@@ -121,7 +108,7 @@
             btnNewLocalDrivingLicense.HighEmphasis = true;
             btnNewLocalDrivingLicense.Icon = null;
             btnNewLocalDrivingLicense.IconType = ReaLTaiizor.Controls.MaterialButton.MaterialIconType.Rebase;
-            btnNewLocalDrivingLicense.Location = new Point(122, 206);
+            btnNewLocalDrivingLicense.Location = new Point(120, 151);
             btnNewLocalDrivingLicense.Margin = new Padding(4, 6, 4, 6);
             btnNewLocalDrivingLicense.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
             btnNewLocalDrivingLicense.Name = "btnNewLocalDrivingLicense";
@@ -143,7 +130,7 @@
             btnNewInternationalDrivingLicense.HighEmphasis = true;
             btnNewInternationalDrivingLicense.Icon = null;
             btnNewInternationalDrivingLicense.IconType = ReaLTaiizor.Controls.MaterialButton.MaterialIconType.Rebase;
-            btnNewInternationalDrivingLicense.Location = new Point(335, 206);
+            btnNewInternationalDrivingLicense.Location = new Point(333, 151);
             btnNewInternationalDrivingLicense.Margin = new Padding(4, 6, 4, 6);
             btnNewInternationalDrivingLicense.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
             btnNewInternationalDrivingLicense.Name = "btnNewInternationalDrivingLicense";
@@ -165,7 +152,7 @@
             btnReplaceDrivingLicense.HighEmphasis = true;
             btnReplaceDrivingLicense.Icon = null;
             btnReplaceDrivingLicense.IconType = ReaLTaiizor.Controls.MaterialButton.MaterialIconType.Rebase;
-            btnReplaceDrivingLicense.Location = new Point(969, 206);
+            btnReplaceDrivingLicense.Location = new Point(967, 151);
             btnReplaceDrivingLicense.Margin = new Padding(4, 6, 4, 6);
             btnReplaceDrivingLicense.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
             btnReplaceDrivingLicense.Name = "btnReplaceDrivingLicense";
@@ -187,7 +174,7 @@
             btnReleaseDetainedDrivingLicense.HighEmphasis = true;
             btnReleaseDetainedDrivingLicense.Icon = null;
             btnReleaseDetainedDrivingLicense.IconType = ReaLTaiizor.Controls.MaterialButton.MaterialIconType.Rebase;
-            btnReleaseDetainedDrivingLicense.Location = new Point(122, 302);
+            btnReleaseDetainedDrivingLicense.Location = new Point(120, 247);
             btnReleaseDetainedDrivingLicense.Margin = new Padding(4, 6, 4, 6);
             btnReleaseDetainedDrivingLicense.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
             btnReleaseDetainedDrivingLicense.Name = "btnReleaseDetainedDrivingLicense";
@@ -209,7 +196,7 @@
             btnRenewDrivingLicense.HighEmphasis = true;
             btnRenewDrivingLicense.Icon = null;
             btnRenewDrivingLicense.IconType = ReaLTaiizor.Controls.MaterialButton.MaterialIconType.Rebase;
-            btnRenewDrivingLicense.Location = new Point(548, 206);
+            btnRenewDrivingLicense.Location = new Point(546, 151);
             btnRenewDrivingLicense.Margin = new Padding(4, 6, 4, 6);
             btnRenewDrivingLicense.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
             btnRenewDrivingLicense.Name = "btnRenewDrivingLicense";
@@ -231,7 +218,7 @@
             btnReplaceLostDrivingLicense.HighEmphasis = true;
             btnReplaceLostDrivingLicense.Icon = null;
             btnReplaceLostDrivingLicense.IconType = ReaLTaiizor.Controls.MaterialButton.MaterialIconType.Rebase;
-            btnReplaceLostDrivingLicense.Location = new Point(757, 206);
+            btnReplaceLostDrivingLicense.Location = new Point(755, 151);
             btnReplaceLostDrivingLicense.Margin = new Padding(4, 6, 4, 6);
             btnReplaceLostDrivingLicense.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
             btnReplaceLostDrivingLicense.Name = "btnReplaceLostDrivingLicense";
@@ -249,7 +236,7 @@
             airButton2.Customization = "7e3t//Ly8v/r6+v/5ubm/+vr6//f39//p6en/zw8PP8UFBT/gICA/w==";
             airButton2.Font = new Font("Arial Narrow", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             airButton2.Image = null;
-            airButton2.Location = new Point(50, 597);
+            airButton2.Location = new Point(48, 542);
             airButton2.Name = "airButton2";
             airButton2.NoRounding = false;
             airButton2.Size = new Size(171, 23);
@@ -266,7 +253,7 @@
             btnManageLocalDrivingLicenseApplications.HighEmphasis = true;
             btnManageLocalDrivingLicenseApplications.Icon = null;
             btnManageLocalDrivingLicenseApplications.IconType = ReaLTaiizor.Controls.MaterialButton.MaterialIconType.Rebase;
-            btnManageLocalDrivingLicenseApplications.Location = new Point(122, 647);
+            btnManageLocalDrivingLicenseApplications.Location = new Point(120, 592);
             btnManageLocalDrivingLicenseApplications.Margin = new Padding(4, 6, 4, 6);
             btnManageLocalDrivingLicenseApplications.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
             btnManageLocalDrivingLicenseApplications.Name = "btnManageLocalDrivingLicenseApplications";
@@ -288,7 +275,7 @@
             btnManageInternationalDrivingLicenseApplications.HighEmphasis = true;
             btnManageInternationalDrivingLicenseApplications.Icon = null;
             btnManageInternationalDrivingLicenseApplications.IconType = ReaLTaiizor.Controls.MaterialButton.MaterialIconType.Rebase;
-            btnManageInternationalDrivingLicenseApplications.Location = new Point(334, 647);
+            btnManageInternationalDrivingLicenseApplications.Location = new Point(332, 592);
             btnManageInternationalDrivingLicenseApplications.Margin = new Padding(4, 6, 4, 6);
             btnManageInternationalDrivingLicenseApplications.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
             btnManageInternationalDrivingLicenseApplications.Name = "btnManageInternationalDrivingLicenseApplications";
@@ -310,7 +297,7 @@
             btnManageApplicationsTypes.HighEmphasis = true;
             btnManageApplicationsTypes.Icon = null;
             btnManageApplicationsTypes.IconType = ReaLTaiizor.Controls.MaterialButton.MaterialIconType.Rebase;
-            btnManageApplicationsTypes.Location = new Point(757, 647);
+            btnManageApplicationsTypes.Location = new Point(755, 592);
             btnManageApplicationsTypes.Margin = new Padding(4, 6, 4, 6);
             btnManageApplicationsTypes.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
             btnManageApplicationsTypes.Name = "btnManageApplicationsTypes";
@@ -332,7 +319,7 @@
             btnManageDrivingTestsTypes.HighEmphasis = true;
             btnManageDrivingTestsTypes.Icon = null;
             btnManageDrivingTestsTypes.IconType = ReaLTaiizor.Controls.MaterialButton.MaterialIconType.Rebase;
-            btnManageDrivingTestsTypes.Location = new Point(967, 647);
+            btnManageDrivingTestsTypes.Location = new Point(965, 592);
             btnManageDrivingTestsTypes.Margin = new Padding(4, 6, 4, 6);
             btnManageDrivingTestsTypes.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
             btnManageDrivingTestsTypes.Name = "btnManageDrivingTestsTypes";
@@ -354,7 +341,7 @@
             btnManageDetainedDrivingLicenses.HighEmphasis = true;
             btnManageDetainedDrivingLicenses.Icon = null;
             btnManageDetainedDrivingLicenses.IconType = ReaLTaiizor.Controls.MaterialButton.MaterialIconType.Rebase;
-            btnManageDetainedDrivingLicenses.Location = new Point(548, 647);
+            btnManageDetainedDrivingLicenses.Location = new Point(546, 592);
             btnManageDetainedDrivingLicenses.Margin = new Padding(4, 6, 4, 6);
             btnManageDetainedDrivingLicenses.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
             btnManageDetainedDrivingLicenses.Name = "btnManageDetainedDrivingLicenses";
@@ -376,7 +363,7 @@
             btnManageSystemUsers.HighEmphasis = true;
             btnManageSystemUsers.Icon = null;
             btnManageSystemUsers.IconType = ReaLTaiizor.Controls.MaterialButton.MaterialIconType.Rebase;
-            btnManageSystemUsers.Location = new Point(548, 751);
+            btnManageSystemUsers.Location = new Point(546, 696);
             btnManageSystemUsers.Margin = new Padding(4, 6, 4, 6);
             btnManageSystemUsers.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
             btnManageSystemUsers.Name = "btnManageSystemUsers";
@@ -398,7 +385,7 @@
             btnManageDrivers.HighEmphasis = true;
             btnManageDrivers.Icon = null;
             btnManageDrivers.IconType = ReaLTaiizor.Controls.MaterialButton.MaterialIconType.Rebase;
-            btnManageDrivers.Location = new Point(334, 751);
+            btnManageDrivers.Location = new Point(332, 696);
             btnManageDrivers.Margin = new Padding(4, 6, 4, 6);
             btnManageDrivers.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
             btnManageDrivers.Name = "btnManageDrivers";
@@ -420,7 +407,7 @@
             btnManagePeople.HighEmphasis = true;
             btnManagePeople.Icon = null;
             btnManagePeople.IconType = ReaLTaiizor.Controls.MaterialButton.MaterialIconType.Rebase;
-            btnManagePeople.Location = new Point(122, 751);
+            btnManagePeople.Location = new Point(120, 696);
             btnManagePeople.Margin = new Padding(4, 6, 4, 6);
             btnManagePeople.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
             btnManagePeople.Name = "btnManagePeople";
@@ -442,7 +429,7 @@
             btnDetainDrivingLicense.HighEmphasis = true;
             btnDetainDrivingLicense.Icon = null;
             btnDetainDrivingLicense.IconType = ReaLTaiizor.Controls.MaterialButton.MaterialIconType.Rebase;
-            btnDetainDrivingLicense.Location = new Point(122, 471);
+            btnDetainDrivingLicense.Location = new Point(120, 416);
             btnDetainDrivingLicense.Margin = new Padding(4, 6, 4, 6);
             btnDetainDrivingLicense.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
             btnDetainDrivingLicense.Name = "btnDetainDrivingLicense";
@@ -460,7 +447,7 @@
             airButton3.Customization = "7e3t//Ly8v/r6+v/5ubm/+vr6//f39//p6en/zw8PP8UFBT/gICA/w==";
             airButton3.Font = new Font("Arial Narrow", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             airButton3.Image = null;
-            airButton3.Location = new Point(50, 424);
+            airButton3.Location = new Point(48, 369);
             airButton3.Name = "airButton3";
             airButton3.NoRounding = false;
             airButton3.Size = new Size(130, 23);
@@ -473,7 +460,7 @@
             btnSettings.BackColor = Color.FromArgb(192, 196, 204);
             btnSettings.ContextMenuStrip = contextMenuStrip1;
             btnSettings.Image = Properties.Resources.SettingIcon;
-            btnSettings.Location = new Point(1098, 788);
+            btnSettings.Location = new Point(1094, 728);
             btnSettings.Name = "btnSettings";
             btnSettings.PixelOffsetType = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
             btnSettings.Size = new Size(45, 38);
@@ -516,7 +503,7 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1181, 841);
+            ClientSize = new Size(1181, 793);
             Controls.Add(btnSettings);
             Controls.Add(btnDetainDrivingLicense);
             Controls.Add(airButton3);
@@ -536,7 +523,6 @@
             Controls.Add(btnNewInternationalDrivingLicense);
             Controls.Add(btnNewLocalDrivingLicense);
             Controls.Add(airButton1);
-            Controls.Add(bigLabel2);
             Controls.Add(bigLabel1);
             Controls.Add(foreverClose1);
             Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -552,7 +538,6 @@
 
         private ReaLTaiizor.Controls.ForeverClose foreverClose1;
         private ReaLTaiizor.Controls.BigLabel bigLabel1;
-        private ReaLTaiizor.Controls.BigLabel bigLabel2;
         private ReaLTaiizor.Controls.AirButton airButton1;
         private ReaLTaiizor.Controls.MaterialButton btnNewLocalDrivingLicense;
         private ReaLTaiizor.Controls.MaterialButton btnNewInternationalDrivingLicense;

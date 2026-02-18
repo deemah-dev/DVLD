@@ -45,7 +45,7 @@
             foreverClose1.DefaultLocation = true;
             foreverClose1.DownColor = Color.FromArgb(30, 0, 0, 0);
             foreverClose1.Font = new Font("Marlett", 10F);
-            foreverClose1.Location = new Point(583, 17);
+            foreverClose1.Location = new Point(583, 16);
             foreverClose1.Name = "foreverClose1";
             foreverClose1.OverColor = Color.FromArgb(30, 255, 255, 255);
             foreverClose1.Size = new Size(18, 18);
@@ -104,6 +104,7 @@
             txtBPassword.Size = new Size(312, 48);
             txtBPassword.TabIndex = 10;
             txtBPassword.TabStop = false;
+            txtBPassword.Text = "Pass1word";
             txtBPassword.TextAlign = HorizontalAlignment.Left;
             txtBPassword.TrailingIcon = null;
             txtBPassword.UseSystemPasswordChar = true;
@@ -138,6 +139,7 @@
             txtBUsername.Size = new Size(312, 48);
             txtBUsername.TabIndex = 9;
             txtBUsername.TabStop = false;
+            txtBUsername.Text = "Username88";
             txtBUsername.TextAlign = HorizontalAlignment.Left;
             txtBUsername.TrailingIcon = null;
             txtBUsername.UseSystemPasswordChar = false;

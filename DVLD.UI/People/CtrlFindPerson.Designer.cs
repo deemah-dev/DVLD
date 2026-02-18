@@ -31,9 +31,8 @@
             txtBFilterValue = new ReaLTaiizor.Controls.MaterialTextBoxEdit();
             cmboBFilters = new ReaLTaiizor.Controls.MaterialComboBox();
             bigLabel1 = new ReaLTaiizor.Controls.BigLabel();
-            btnAddPerson = new ReaLTaiizor.Controls.HopePictureBox();
             ctrlPersonInformation1 = new CtrlPersonInformation();
-            ((System.ComponentModel.ISupportInitialize)btnAddPerson).BeginInit();
+            btnAddPerson = new ReaLTaiizor.Controls.MaterialButton();
             SuspendLayout();
             // 
             // txtBFilterValue
@@ -104,23 +103,6 @@
             bigLabel1.TabIndex = 40;
             bigLabel1.Text = "Filter By";
             // 
-            // btnAddPerson
-            // 
-            btnAddPerson.BackColor = Color.FromArgb(192, 196, 204);
-            btnAddPerson.ErrorImage = Properties.Resources.AddPersonIcon;
-            btnAddPerson.Image = Properties.Resources.AddPersonIcon;
-            btnAddPerson.InitialImage = Properties.Resources.AddPersonIcon;
-            btnAddPerson.Location = new Point(652, 14);
-            btnAddPerson.Name = "btnAddPerson";
-            btnAddPerson.PixelOffsetType = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
-            btnAddPerson.Size = new Size(76, 49);
-            btnAddPerson.SizeMode = PictureBoxSizeMode.StretchImage;
-            btnAddPerson.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
-            btnAddPerson.TabIndex = 43;
-            btnAddPerson.TabStop = false;
-            btnAddPerson.TextRenderingType = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
-            btnAddPerson.Click += btnAddPerson_Click;
-            // 
             // ctrlPersonInformation1
             // 
             ctrlPersonInformation1.Location = new Point(8, 80);
@@ -128,19 +110,39 @@
             ctrlPersonInformation1.Size = new Size(740, 495);
             ctrlPersonInformation1.TabIndex = 44;
             // 
+            // btnAddPerson
+            // 
+            btnAddPerson.AutoSize = false;
+            btnAddPerson.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            btnAddPerson.Density = ReaLTaiizor.Controls.MaterialButton.MaterialButtonDensity.Default;
+            btnAddPerson.Depth = 0;
+            btnAddPerson.HighEmphasis = true;
+            btnAddPerson.Icon = Properties.Resources.AddPersonIcon;
+            btnAddPerson.IconType = ReaLTaiizor.Controls.MaterialButton.MaterialIconType.Rebase;
+            btnAddPerson.Location = new Point(636, 14);
+            btnAddPerson.Margin = new Padding(4, 6, 4, 6);
+            btnAddPerson.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
+            btnAddPerson.Name = "btnAddPerson";
+            btnAddPerson.NoAccentTextColor = Color.Empty;
+            btnAddPerson.Size = new Size(44, 53);
+            btnAddPerson.TabIndex = 45;
+            btnAddPerson.Type = ReaLTaiizor.Controls.MaterialButton.MaterialButtonType.Contained;
+            btnAddPerson.UseAccentColor = false;
+            btnAddPerson.UseVisualStyleBackColor = true;
+            btnAddPerson.Click += btnAddPerson_Click;
+            // 
             // CtrlFindPerson
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(ctrlPersonInformation1);
             Controls.Add(btnAddPerson);
+            Controls.Add(ctrlPersonInformation1);
             Controls.Add(txtBFilterValue);
             Controls.Add(cmboBFilters);
             Controls.Add(bigLabel1);
             Name = "CtrlFindPerson";
             Size = new Size(757, 585);
             Load += CtrlFindPerson_Load;
-            ((System.ComponentModel.ISupportInitialize)btnAddPerson).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -150,7 +152,7 @@
         private ReaLTaiizor.Controls.MaterialTextBoxEdit txtBFilterValue;
         private ReaLTaiizor.Controls.MaterialComboBox cmboBFilters;
         private ReaLTaiizor.Controls.BigLabel bigLabel1;
-        private ReaLTaiizor.Controls.HopePictureBox btnAddPerson;
         private CtrlPersonInformation ctrlPersonInformation1;
+        private ReaLTaiizor.Controls.MaterialButton btnAddPerson;
     }
 }
