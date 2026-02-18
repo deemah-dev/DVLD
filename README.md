@@ -94,7 +94,7 @@ Each layer is decoupled and can be modified independently — keeping the codeba
 
 ## 📸 Demo
 
-> demo videos covering all modules are available in the my portfolio [`https://dimamusallam-portfolio.netlify.app/detailsdvld`](DVLD_Details).
+> Demo videos covering all modules are available in my portfolio [DVLD_Details](https://dimamusallam-portfolio.netlify.app/detailsdvld).
 
 Modules showcased:
 - Main Dashboard
