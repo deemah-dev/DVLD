@@ -92,9 +92,9 @@ Each layer is decoupled and can be modified independently — keeping the codeba
 
 ---
 
-## 📸 Screenshots & Demo
+## 📸 Demo
 
-> Screenshots and demo videos covering all modules are available in the [`DVLD_Details/`](./DVLD_Details) folder.
+> demo videos covering all modules are available in the my portfolio [`https://dimamusallam-portfolio.netlify.app/detailsdvld`](DVLD_Details).
 
 Modules showcased:
 - Main Dashboard
@@ -104,36 +104,3 @@ Modules showcased:
 - Local license application & exam scheduling
 - International license issuance
 - Renewal, replacement, detain, and release workflows
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Windows OS
-- Visual Studio 2019 or later
-- SQL Server / SSMS
-
-### Setup
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/deemah-dev/DVLD.git
-   cd DVLD
-   ```
-
-2. **Set up the database**
-   - Open SSMS and run the provided `.sql` script to create and seed the database
-
-3. **Configure the connection string**
-   - Update the connection string in the DAL layer to match your SQL Server instance
-
-4. **Build & run**
-   - Open the solution in Visual Studio
-   - Build the solution and run the project
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
